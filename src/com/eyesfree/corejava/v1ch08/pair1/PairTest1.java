@@ -10,6 +10,18 @@ public class PairTest1
    {
       String[] words = { "Mary", "had", "a", "little", "lamb" };
       Pair<String> mm = ArrayAlg.minmax(words);
+//      Pair<double> dd; // Error 1
+
+//      if(mm instanceof Pair<String>){  // Error 2
+//
+//      }
+
+//      Pair<String> p = (Pair<String>)mm; // Warning 3
+
+//      Pair<String>[] table = new Pair<String>[10]; // Error 4
+//      Object[] objArray = table;
+//      objArray[0] = "hello";
+
       System.out.println("min = " + mm.getFirst());
       System.out.println("max = " + mm.getSecond());
    }
